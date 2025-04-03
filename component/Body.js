@@ -34,7 +34,7 @@ export const Body = () => {
                 <div className="recipeselect-div">
                   
                     <h2>{selectedRecipe.name}</h2>
-                    <img src={selectedRecipe.image}  />
+                    <img className="latest-div"src={selectedRecipe.image}  />
                     <p><strong>cuisine:</strong> {selectedRecipe.cuisine}</p>
                     <p><strong>Rating:</strong> {selectedRecipe.rating}</p>
                     <p><strong>ingredients :</strong> {selectedRecipe.ingredients}</p>
